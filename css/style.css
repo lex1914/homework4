@@ -1,0 +1,306 @@
+body {
+	background: url(../img/background_body.png) repeat-x;
+	 /*background-attachment:fixed;*/
+	 /*padding-bottom: 30px;*/
+	 margin: 0 auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	position: absolute;
+    top: 0;
+    left: 174px;
+    width: 1000px;
+	height: 994px;
+	border: 0px;
+	z-index: 1;
+  }
+
+.wrapper1 {
+	left: 0px;
+	bottom: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 967px;
+	-webkit-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.47);
+	box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.47);
+	z-index: 2;
+}
+
+.general_page {
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+	box-sizing: border-box;
+}
+
+header {
+	margin-top: 0px;
+	width: 1000px;
+	height: 177px;
+	background-color: white;
+ }
+
+
+.logo_asia {
+	position: absolute;
+	  background-image: url(../img/logo_asia.png);
+	  position: absolute;
+	  left: 30px;
+	  top: 12px;
+	  width: 283px;
+	  height: 164px;
+	  z-index: 2;
+ }
+
+  .tur_asia_text {
+ 	position: absolute;
+ 	top: 98px;
+ 	left: 73px;
+ 	width: 120px;
+ 	height: 18px;
+ 	font-size: 12px;
+	 font-family: "Tahoma";
+	 color: rgb(18, 138, 167);
+	/*-moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	 -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	 -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	/* display: inline-block;*/*/
+	z-index: 1;
+}
+/*Шапка контактной информаци: "Наши контакты:"*/
+.contact_info {
+	/*position: absolute;
+  left: 0px;
+  top: -75px;*/
+  width: 470px;
+  height: 65px;
+  line-height: 1.5;
+ /* text-align: left;*/
+  /*-moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);*/
+  font-weight: 600;
+}
+
+
+.contacts {
+  position: absolute;
+  left: 684px;
+  top: 0px;
+  width: 470px;
+  height: 28px;
+  /*margin-bottom: 40px;*/
+  font-size: 40px;
+  font-family: "Tahoma";
+  color: rgba(18, 138, 167, 0.8);
+  /*line-height: 1.2;
+  text-align: left;*/
+  -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  }
+
+.contacts ul {
+	list-style: none;
+}
+
+/*Иконки стран*/
+ .country {
+ 	position: absolute;
+ 	left: 395px;
+ 	top: 105px;
+ 	width: 520px;
+ 	height: 42px;
+ 	margin-left: 84px;
+ 	z-index: 1;
+ }
+
+ .country ul {
+ 	list-style: none;
+ 	display: inline-block;
+	 font-size: 10px;
+  font-family: "Tahoma";
+  color: rgb(18, 138, 167);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+ }
+
+ .icon_link img {
+ 	width: 42px;
+ 	height: 42px;
+ 	border: 0;
+ }
+
+	
+/*.icon_link span {
+	display: block;
+	text-underline-position: under;
+}*/
+
+.icon_link {
+	margin: -8px;
+}
+
+.flag {
+	margin: 0 -15px;
+}
+
+.flag1 {
+	margin: -9px;
+}
+
+.conteiner:after {
+	width: 1000px;
+	height: 236px;
+	margin: 0 auto;
+	clear: both;
+}
+	
+.conteiner {
+		width: 1000px;
+		height: 236px;
+}
+
+ img {
+ margin-top: 0px;
+ margin-left: 183px;
+ margin-bottom: -18px;
+  width: 1000px;
+  height: 235px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #128aa7;
+ }
+
+.panel {
+	position: absolute;
+	width: 1000px;
+	height: 32px;
+	border-top: solid 1px;
+	border-top-color: #cacbcb;
+	border-bottom: solid 1px;
+	border-bottom-color: #000000;
+	/*background: #373737;*/
+	background: -moz-linear-gradient(top,  #373737 0%, #373737 100%);
+	background: -webkit-linear-gradient(top,  #373737 0%,#373737 100%);
+	background: linear-gradient(to bottom,  #303030 0%,#303030 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 );
+ 	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
+    z-index: 2;
+ }
+
+
+ .general_menu li {
+	vertical-align: center;
+	display: inline-block;
+}
+
+.tab_menu {
+	list-style: none;
+	text-decoration: none;
+	font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  padding: 0px;
+  margin-left: 65px;
+ }
+
+.content {
+	position: absolute;
+	top: 445px;
+	margin-right: 183px;
+	margin-left: 7px;
+	background-color: white;
+	margin: 0 auto;
+	width: 1000px;
+	height: 522px;
+	overflow: hidden;
+	z-index: 1;
+	/*clear: both;*/
+}
+
+.block1 {
+	float: left;
+	width: 21%;
+	height: 600px;
+	padding-top: 12px;
+	padding-left: 0;
+	padding-right: 0;
+	border-right: solid 1px;
+	border-color: #c7cacf;
+	/*overflow: hidden;*/
+	background-color: #edeef0;
+}
+
+.block1 .info p {
+	width: 210px;
+	height: 15px;
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: rgb(66, 76, 67);
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.block2 {
+	float: right;
+	width: 21%;
+	height: 600px;
+	padding-top: 12px;
+	padding-left: 0;
+	padding-right: 0;
+	border-left: solid 1px;
+	border-color: #c7cacf;
+	/*overflow: hidden;*/
+	background-color: #edeef0;
+}
+
+.block2 .news p {
+	width: 210;
+	height: 15px;
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: rgb(66, 76, 67);
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 600;
+ }
+
+span {
+	display: block;
+	margin-right: 25px;
+	margin-left: 15px;
+	/*margin-bottom: 15px;*/
+	font-size: 14px;
+  	font-family: "Tahoma";
+  	color: rgb(66, 76, 67);
+  	line-height: 2;
+	/*overflow: hidden;*/
+}
+
+footer {
+	position: absolute;
+	  left: 160px;
+	  top: 958px;
+  font-size: 40px;
+  font-family: "Tahoma";
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+ }
