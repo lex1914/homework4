@@ -1,8 +1,6 @@
 body {
 	background: url(../img/background_body.png) repeat-x;
 	 /*background-attachment:fixed;*/
-	 /*padding-bottom: 30px;*/
-	 margin: 0 auto;
 }
 
 * {
@@ -46,19 +44,18 @@ header {
 	background-color: white;
 }
 
-
 .logo_asia {
 	position: absolute;
-	 background-image: url(../img/logo_asia.png);
-	 position: absolute;
-	 left: 30px;
-	 top: 12px;
-	 width: 283px;
-	 height: 164px;
-	 z-index: 3;
+	background-image: url(../img/logo_asia.png);
+	position: absolute;
+	left: 30px;
+	top: 12px;
+	width: 283px;
+	height: 164px;
+	z-index: 3;
 }
 
-  .tur_asia_text {
+.tur_asia_text {
  	position: absolute;
  	top: 98px;
  	left: 73px;
@@ -72,26 +69,24 @@ header {
 
 /*Шапка контактной информаци: "Наши контакты:"*/
 .contact_info {
-  width: 470px;
-  height: 65px;
-  line-height: 1.5;
-  font-weight: 600;
+	width: 470px;
+	height: 65px;
+	line-height: 1.5;
+	font-weight: 600;
 }
 
-
 .contacts {
-	  position: absolute;
-	  left: 684px;
-	  top: 0px;
-	  width: 470px;
-	  height: 28px;
-	  /*margin-bottom: 40px;*/
-	  font-size: 40px;
-	  font-family: "Tahoma";
-	  color: rgba(18, 138, 167, 0.8);
-	  -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
-	  -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
-	  -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	position: absolute;
+	left: 684px;
+	top: 0px;
+	width: 470px;
+	height: 28px;
+	font-size: 40px;
+	font-family: "Tahoma";
+	color: rgba(18, 138, 167, 0.8);
+	-moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	-webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	-ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
 }
 
 .contacts ul {
@@ -99,7 +94,7 @@ header {
 }
 
 /*Иконки стран*/
- .flags {
+.flags {
  	position: absolute;
  	top: 110px;
  	left: 570px;
@@ -121,7 +116,6 @@ header {
  	position: absolute;
  	width: 42px;
  	height: 42px;
- 	/*vertical-align: top;*/
  	border: 0;
 }
 
@@ -129,13 +123,13 @@ header {
 	display: inline-block;
  	padding-top: 40px;
  	font-size: 10px;
-  font-family: "Tahoma";
-  color: rgb(18, 138, 167);
-  vertical-align: top;
-  text-decoration: underline;
+  	font-family: "Tahoma";
+  	color: rgb(18, 138, 167);
+  	vertical-align: top;
+  	text-decoration: underline;
 }
 
- .flags .text1 {
+.flags .text1 {
  	margin-left: 8px;
 }
 
@@ -144,7 +138,7 @@ header {
 	margin-left: -5px;
  }
 
- .flags .text3 {
+.flags .text3 {
  	width: 50px;
  	margin-left: 0px;
 }
@@ -222,8 +216,9 @@ ul.submenu a {
   	color: rgb(255, 255, 255);
   	line-height: 1.714;
 }
+
 /*Обычное меню*/
- li.menu1 {
+li.menu1 {
  	position: absolute;
  	top: 0;
  	left: 65px;
@@ -231,7 +226,8 @@ ul.submenu a {
  	list-style: none;
 	padding: 0px;
  	z-index: 1;
- }
+}
+
  li.menu1 a {
  	text-decoration: none;
  	font-size: 14px;
@@ -239,9 +235,9 @@ ul.submenu a {
   	color: rgb(255, 255, 255);
   	line-height: 2.2;
  	display: inline-block;
- }
+}
 
- li.menu2 {
+li.menu2 {
  	position: absolute;
  	top: 0;
  	left: 576px;
@@ -249,9 +245,9 @@ ul.submenu a {
  	list-style: none;
 	padding: 0px;
  	z-index: 1;
- }
+}
 
- li.menu2 a {
+li.menu2 a {
  	text-decoration: none;
  	font-size: 14px;
   	font-family: "Tahoma";
@@ -270,37 +266,37 @@ li.menu3 {
  	z-index: 1;
  }
 
- li.menu3 a {
+li.menu3 a {
  	text-decoration: none;
  	font-size: 14px;
-  font-family: "Tahoma";
-  color: rgb(255, 255, 255);
-  line-height: 2.2;
- 	display: inline-block;
- 	
- }
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.2;
+  	display: inline-block;
+}
 
- li.menu4 {
+li.menu4 {
  	position: absolute;
  	top: 0;
  	left: 872px;
  	width: 63px;
  	list-style: none;
 	padding: 0px;
- z-index: 1;
- }
- li.menu4 a {
- 	text-decoration: none;
- 	font-size: 14px;
-  font-family: "Tahoma";
-  color: rgb(255, 255, 255);
-  line-height: 2.2;
- 	display: inline-block;
- }
+ 	z-index: 1;
+}
+
+li.menu4 a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Tahoma";
+	color: rgb(255, 255, 255);
+	line-height: 2.2;
+	display: inline-block;
+}
  /*Конец обычного меню*/
 
  /*Выпадающее меню*/
- .active1 {
+.active1 {
  	position: absolute;
  	left: 175px;
 	width: 84px;
@@ -309,11 +305,11 @@ li.menu3 {
 }
 
 .active1 > a {
- text-decoration: none;
- font-size: 14px;
-  font-family: "Tahoma";
-  color: rgb(255, 255, 255);
-  line-height: 2.2;
+ 	text-decoration: none;
+ 	font-size: 14px;
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.2;
 }
 
 .active2 {
@@ -327,10 +323,10 @@ li.menu3 {
 .active2 > a {
  	text-decoration: none;
  	font-size: 14px;
-  font-family: "Tahoma";
-  color: rgb(255, 255, 255);
-  line-height: 2.2;
- }
+ 	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.2;
+}
 
  .active3 {
  	position: absolute;
@@ -343,10 +339,10 @@ li.menu3 {
 .active3 > a {
  	text-decoration: none;
  	font-size: 14px;
-  font-family: "Tahoma";
-  color: rgb(255, 255, 255);
-  line-height: 2.2;
- }
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.2;
+}
 
 .active1:hover .submenu {
 	display: block;
@@ -392,14 +388,13 @@ li.menu3 {
 .block1 .info p {
 	width: 210px;
 	height: 15px;
-  font-size: 18px;
-  font-family: "Tahoma";
-  color: rgb(66, 76, 67);
-  margin-bottom: 15px;
-  text-align: center;
-  font-weight: 600;
+	font-size: 18px;
+	font-family: "Tahoma";
+	color: rgb(66, 76, 67);
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: 600;
 }
-
 
 .block2 {
 	float: right;
@@ -417,13 +412,13 @@ li.menu3 {
 .block2 .news p {
 	width: 210px;
 	height: 15px;
-  font-size: 18px;
-  font-family: "Tahoma";
-  color: rgb(66, 76, 67);
-  margin-bottom: 15px;
-  text-align: center;
-  font-weight: 600;
- }
+  	font-size: 18px;
+  	font-family: "Tahoma";
+  	color: rgb(66, 76, 67);
+  	margin-bottom: 15px;
+  	text-align: center;
+  	font-weight: 600;
+}
 
 span {
 	display: block;
@@ -441,10 +436,10 @@ footer {
 	left: 160px;
 	top: 958px;
   	font-size: 40px;
-	 font-family: "Tahoma";
-	 color: rgba(255, 255, 255, 0.8);
-	 text-align: left;
-	 -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
-	 -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
-	 -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	font-family: "Tahoma";
+	color: rgba(255, 255, 255, 0.8);
+	text-align: left;
+    -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	-webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	-ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
 }
