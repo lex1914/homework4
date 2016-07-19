@@ -99,16 +99,7 @@ header {
 }
 
 /*Иконки стран*/
- .country {
- 	position: absolute;
- 	left: 395px;
- 	top: 115px;
- 	width: 520px;
- 	height: 57px;
- 	margin-left: 84px;
-}
-
-.flags {
+ .flags {
  	position: absolute;
  	top: 110px;
  	left: 570px;
@@ -130,7 +121,7 @@ header {
  	position: absolute;
  	width: 42px;
  	height: 42px;
- 	vertical-align: center;
+ 	/*vertical-align: top;*/
  	border: 0;
 }
 
@@ -191,33 +182,186 @@ img {
 	border-top-color: #cacbcb;
 	border-bottom: solid 1px;
 	border-bottom-color: #000000;
-	/*background: #373737;*/
 	background: -moz-linear-gradient(top,  #373737 0%, #373737 100%);
 	background: -webkit-linear-gradient(top,  #373737 0%,#373737 100%);
 	background: linear-gradient(to bottom,  #303030 0%,#303030 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 );
- 	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
     -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
     box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.44);
     z-index: 2;
 }
 
-
- .general_menu li {
-	vertical-align: center;
-	display: inline-block;
+.white_triangles {
+	position: absolute;
+	top: 12px;
+	left: 268px;
+	width: 247px;
+	height: 8px;
+	border: 0;
 }
 
-.tab_menu {
-	list-style: none;
+/*НАЧАЛО ОБЫЧНОГО И ВЫПАДАЮЩЕГО МЕНЮ*/	/*НАЧАЛО ОБЫЧНОГО И ВЫПАДАЮЩЕГО МЕНЮ*/
+
+ul.submenu {
+ 	position: absolute;
+    display: none;
+    margin-top: 3px;
+    padding-left: 10px;
+    width: 150px;
+   	height: 125px;
+   	list-style: none;
+    background: #303030;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    z-index: 2;
+}
+
+ul.submenu a {
 	text-decoration: none;
 	font-size: 14px;
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.714;
+}
+/*Обычное меню*/
+ li.menu1 {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 65px;
+ 	width: 50px;
+ 	list-style: none;
+	padding: 0px;
+ 	z-index: 1;
+ }
+ li.menu1 a {
+ 	text-decoration: none;
+ 	font-size: 14px;
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.2;
+ 	display: inline-block;
+ }
+
+ li.menu2 {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 576px;
+ 	width: 115px;
+ 	list-style: none;
+	padding: 0px;
+ 	z-index: 1;
+ }
+
+ li.menu2 a {
+ 	text-decoration: none;
+ 	font-size: 14px;
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.2;
+ 	display: inline-block;
+ }
+
+li.menu3 {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 765px;
+ 	width: 37px;
+ 	list-style: none;
+	padding: 0px;
+ 	z-index: 1;
+ }
+
+ li.menu3 a {
+ 	text-decoration: none;
+ 	font-size: 14px;
   font-family: "Tahoma";
   color: rgb(255, 255, 255);
-  line-height: 2;
-  padding: 0px;
-  margin-left: 65px;
+  line-height: 2.2;
+ 	display: inline-block;
+ 	
+ }
+
+ li.menu4 {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 872px;
+ 	width: 63px;
+ 	list-style: none;
+	padding: 0px;
+ z-index: 1;
+ }
+ li.menu4 a {
+ 	text-decoration: none;
+ 	font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 2.2;
+ 	display: inline-block;
+ }
+ /*Конец обычного меню*/
+
+ /*Выпадающее меню*/
+ .active1 {
+ 	position: absolute;
+ 	left: 175px;
+	width: 84px;
+	height: 40px;
+	list-style: none;
 }
+
+.active1 > a {
+ text-decoration: none;
+ font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 2.2;
+}
+
+.active2 {
+ 	position: absolute;
+ 	left: 323px;
+	width: 50px;
+	height: 40px;
+	list-style: none;
+}
+
+.active2 > a {
+ 	text-decoration: none;
+ 	font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 2.2;
+ }
+
+ .active3 {
+ 	position: absolute;
+ 	left: 433px;
+	width: 100px;
+	height: 40px;
+	list-style: none;
+}
+
+.active3 > a {
+ 	text-decoration: none;
+ 	font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 2.2;
+ }
+
+.active1:hover .submenu {
+	display: block;
+}
+
+.active2:hover .submenu {
+	display: block;
+}
+
+.active3:hover .submenu {
+	display: block;
+}
+/*Конец выпадающего меню*/
+
+/*КОНЕЦ ОБЫЧНОГО И ВЫПАДАЮЩЕГО МЕНЮ*/	/*КОНЕЦ ОБЫЧНОГО И ВЫПАДАЮЩЕГО МЕНЮ*/	
 
 .content {
 	position: absolute;
@@ -271,7 +415,7 @@ img {
 }
 
 .block2 .news p {
-	width: 210;
+	width: 210px;
 	height: 15px;
   font-size: 18px;
   font-family: "Tahoma";
