@@ -217,7 +217,7 @@ ul.submenu a {
   	font-family: "Tahoma";
   	color: rgb(255, 255, 255);
   	line-height: 1.714;
-}
+  }
 
 /*Обычное меню*/
 li.menu1 {
@@ -228,7 +228,7 @@ li.menu1 {
  	list-style: none;
 	padding: 0px;
  	z-index: 1;
-}
+ }
 
  li.menu1 a {
  	text-decoration: none;
