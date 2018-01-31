@@ -77,6 +77,11 @@ header {
 	font-weight: 600;
 }
 
+.wrapper_of_contacts {
+	position: relative;
+	right: 180px;
+}
+
 .contacts {
 	position: absolute;
 	left: 857px;
@@ -95,6 +100,11 @@ header {
 	list-style: none;
 }
 
+.wrapper-flags {
+	position: relative;
+	// left: 200px;
+	right: 180px;
+}
 /*Иконки стран*/
 .flags {
  	position: absolute;
